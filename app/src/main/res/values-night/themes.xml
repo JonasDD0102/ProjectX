@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProjectX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Cor primária: usada na barra de navegação, botões principais, etc. -->
+        <item name="colorPrimary">#90CAF9</item>
+        <!-- Cor primária variante: para detalhes ou hover. -->
+        <item name="colorPrimaryVariant">#64B5F6</item>
+        <!-- Cor secundária: usada em botões secundários ou áreas menos proeminentes. -->
+        <item name="colorSecondary">#f8f8ed</item>
+        <!-- Cor de fundo padrão para a aplicação. -->
+        <item name="android:windowBackground">#F5F5F5</item>
+        <!-- Cor de texto padrão em backgrounds claros. -->
+        <item name="android:textColorPrimary">#212121</item>
+        <!-- Cor de acento: usada em ícones e detalhes chamativos. -->
+        <item name="colorAccent">#FFF59D</item>
+    </style>
+
+    <style name="floating_ActionButton">
+        <item name="android:backgroundTint">@color/pink</item>
+    </style>
+
+    <style name="Backgraund">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.Material3.Toolbar.Surface">
+         <item name="android:background">@color/newColor</item>
+    </style>
+
+
+    <style name="Button">
+        <item name="android:background">@color/newColor</item>
+    </style>
+
+    <style name="shapeRound">
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="title5" parent="Widget.AppCompat.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="title3" parent="Widget.AppCompat.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="buttonShapeDiference" parent="Widget.AppCompat.Button">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+
+    </style>
+
+
+    <style name="editText1" parent="Widget.AppCompat.EditText">
+        <item name="android:elevation">20dp</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+</resources>

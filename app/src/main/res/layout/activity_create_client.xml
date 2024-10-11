@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/creatClient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Backgraund"
+    tools:context=".Presentation.CreateClient">
+
+
+
+    <include
+        android:id="@+id/myToolbar"
+        layout="@layout/toollbar"/>
+
+    <TextView
+        android:id="@+id/textResgisterGradient"
+        style="@style/title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/Client_Register"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/Client_Name"
+        android:theme="@style/title3" />
+
+    <EditText
+        android:id="@+id/edtNameRegisterClient"
+        style="@style/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Client_Name"
+        android:inputType="text" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/Client_address"
+        android:theme="@style/title3" />
+
+    <EditText
+        android:id="@+id/edtAddressRegisterClient"
+        style="@style/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua:  Nº:"
+        android:inputType="text" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/app_data_client_amount_to_pay"
+        android:theme="@style/title3" />
+
+    <EditText
+        android:id="@+id/edt_AmountToPlay_register"
+        style="@style/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "R$: "
+        android:inputType="numberDecimal
+" />
+
+
+    <Button
+        android:id="@+id/btnRegisterClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="20dp"
+        android:text="@string/btn_Register"
+        android:backgroundTint="@color/newColor"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/buttonShapeDiference"/>
+
+
+</LinearLayout>

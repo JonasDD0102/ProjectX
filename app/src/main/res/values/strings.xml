@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjectX</string>
+    <string name="HelloWord">Store</string>
+    <string name="Client_Register">Client Register</string>
+    <string name="Client_Name">Name</string>
+    <string name="Client_address">Address</string>
+    <string name="Client_CPF">CPF</string>
+    <string name="Fill_in_all_fields">fill in all fields:</string>
+    <string name="btn_Register">Register</string>
+    <string name="app_data_client_title">name</string>
+    <string name="amount_to_pay_edt">R$ :  %1$s!</string>
+    <string name="address_Edt_Client">Rua:     %1$s!         Nº: %1$s!  </string>
+    <string name="app_data_client_amount_to_pay">Add amount to pay</string>
+</resources>
