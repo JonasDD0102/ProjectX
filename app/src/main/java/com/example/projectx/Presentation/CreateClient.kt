@@ -65,19 +65,6 @@ class CreateClient : AppCompatActivity() {
             insets
         }
 
-
-      /*  val toolbar  = findViewById<Toolbar>(R.id.myToolbar)
-
-        val shapeAppearenceModel = ShapeAppearanceModel.builder()
-            .setAllCorners(CornerFamily.ROUNDED,14f)
-            .build()
-
-        val materialShapeDrawable = MaterialShapeDrawable(shapeAppearenceModel).apply {
-            fillColor = ContextCompat.getColorStateList(this@CreateClient,R.color.newColor)
-        }
-
-        toolbar.background = materialShapeDrawable
-      */
         client = intent.getSerializableExtra(KEY_OPEN_CREATE_CLIENT) as DataClient ?
 
         val edtNameClient = findViewById<EditText>(R.id.edtNameRegisterClient)
